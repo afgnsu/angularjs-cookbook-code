@@ -1,0 +1,11 @@
+<html ng-app="cookbookApp">
+<head>
+  <script src="../vendor/angular.js"></script>
+  <script src="showdown/showdown.js"></script>
+  <script src="application.js"></script>
+</head>
+<body>
+  <textarea ng-model="markdown" cols="60" rows="10"></textarea>
+  <markdown-preview model="markdown"></markdown-preview>
+</body>
+</html>
